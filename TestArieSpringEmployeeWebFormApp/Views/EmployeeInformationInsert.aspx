@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
     <title>New Employee Maintenance</title>
 </head>
 <body>
@@ -51,8 +52,8 @@
             <asp:Calendar ID="calHireDate"  runat="server" ></asp:Calendar>
         </dd>
     </dl>
-    <asp:Button ID="btnSave"  OnClick="btnSave_Click" runat="server" Text="Save" CssClass="btn btn-primary"/>
-    <asp:Button ID="btnCancel"  OnClick="btnCancel_Click" runat="server" Text="Cancel" CssClass="btn cla_cancelar"/>
+    <asp:Button ID="btnSave"  OnClick="btnSave_Click" runat="server" Text="Save" CssClass="btn btn-info"/>
+    <asp:Button ID="btnCancel"  OnClick="btnCancel_Click" runat="server" Text="Cancel" CssClass="btn btn-warning cla_cancelar"/>
     <script src="../Scripts/WebForms/EmployeeInformationValidate.js"></script>
         </div>
     </form>

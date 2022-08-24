@@ -4,12 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
     <title></title>
 </head>
 <body>
     <form id="form1" runat="server">
         <h1>Delete Employee</h1>
-    <h3>Are you sure?</h3>
+    <h3>Please verify the information before deleting it, Do you agree with the changes?</h3>
     <asp:HiddenField ID="hiddenEmployeeId" runat="server" />
     <dl class="dl-horizontal">
 		<dt>
@@ -44,7 +45,7 @@
 		</dd>
 	</dl>
     <asp:Button ID="btnDelete" runat="server" Text="Delete" CssClass="btn btn-danger" OnClick="btnDelete_Click" />
-    <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn " OnClick ="btnCancel_Click" />
+    <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn btn-warning" OnClick ="btnCancel_Click" />
         
         
         <div>

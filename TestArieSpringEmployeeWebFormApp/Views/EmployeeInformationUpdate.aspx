@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
     <title></title>
 </head>
 <body>
@@ -54,7 +55,7 @@
 		</dd>
 	</dl>
     <asp:Button ID="btnSave" runat="server" Text="Save" CssClass="btn btn-primary" OnClick="btnSave_Click" />
-    <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn cla_cancelar " OnClick ="btnCancel_Click" />
+    <asp:Button ID="btnCancel" runat="server" Text="Cancel" CssClass="btn btn-warning cla_cancelar " OnClick ="btnCancel_Click" />
 
     <script src="../Scripts/WebForms/EmployeeInformationValidate.js"></script>
 

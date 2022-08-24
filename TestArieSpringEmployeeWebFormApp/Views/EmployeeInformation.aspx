@@ -4,11 +4,14 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"/>
     <title></title>
 </head>
-<body>
+<body>      
+
+
     <form id="form1" runat="server">
-        <h1>Employees</h1>
+        <h2>Employees Filter</h2>
     <% if (Request["error"] != null)
         {%>
     <div class="alert alert-dismissible alert-danger">
@@ -18,8 +21,14 @@
         </p>
     </div>
     <%} %>
+
+        <br />
+        <br />
     <div class="row">
-        <h3>Filter</h3>
+        
+        <br />
+
+        &nbsp; &nbsp; &nbsp;&nbsp;
         <table>
             <tr>
                 <td>Last name</td>
@@ -34,12 +43,14 @@
                 </td>
             </tr>
         </table>
-        <asp:Button ID="btnSearch" OnClick="btnSearch_Click" runat="server" Text="Search" CssClass="btn btn-primary" />
+        <br />
+        <asp:Button ID="btnSearch" OnClick="btnSearch_Click" runat="server" Text="Search" CssClass="btn btn-info" />
     </div>
     <hr />
+        <br />
     <div class="row">
-        <asp:Button ID="btnInsert" OnClick="btnInsert_Click" runat="server" Text="New" CssClass="btn btn-primary" />
-        <asp:Button ID="btnUpdate" OnClick="btnUpdate_Click" runat="server" Text="Modify" CssClass="btn btn-primary" />
+        <asp:Button ID="btnInsert" OnClick="btnInsert_Click" runat="server" Text="New" CssClass="btn btn-info" />
+        <asp:Button ID="btnUpdate" OnClick="btnUpdate_Click" runat="server" Text="Modify" CssClass="btn btn-info" />
         <asp:Button ID="btnDelete" OnClick="btnDelete_Click" runat="server" Text="Delete" CssClass="btn btn-danger" />
     </div>
     <hr />
