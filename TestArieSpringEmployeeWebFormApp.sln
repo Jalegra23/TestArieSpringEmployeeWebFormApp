@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAireSpringEmployeeWebFormApp", "TestArieSpringEmployeeWebFormApp\TestAireSpringEmployeeWebFormApp.csproj", "{C5AEA828-F2A4-4B44-9E3C-ED1073D587B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAireSpringEmployeeWebFormApp.Tests", "TestArieSpringEmployeeWebFormApp.Tests\TestAireSpringEmployeeWebFormApp.Tests.csproj", "{C26A65D5-FEC2-4E24-9966-F9BCB1E0B2C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5AEA828-F2A4-4B44-9E3C-ED1073D587B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AEA828-F2A4-4B44-9E3C-ED1073D587B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AEA828-F2A4-4B44-9E3C-ED1073D587B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AEA828-F2A4-4B44-9E3C-ED1073D587B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26A65D5-FEC2-4E24-9966-F9BCB1E0B2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26A65D5-FEC2-4E24-9966-F9BCB1E0B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26A65D5-FEC2-4E24-9966-F9BCB1E0B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26A65D5-FEC2-4E24-9966-F9BCB1E0B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB97515A-636A-4343-B66A-5C3774AB17A6}
+	EndGlobalSection
+EndGlobal
